@@ -3,25 +3,13 @@ import java.awt.Robot;
 import java.awt.event.InputEvent;
 import java.awt.event.KeyEvent;
  
-/*
- * On a Mac system, I place the TextEdit text editor in the 
- * upper-left corner of the screen, and put a bunch of blank lines 
- * in the editor. Then I run this Java Robot example from 
- * Eclipse or the Unix command line.
- * 
- * It types the three strings shown in the code below into
- * the text editor.
- *
- * Many thanks to the people on the Mac Java-dev mailing list
- * for your help. 
- *
- */
+
 public class ClientTest
 {
   Robot robot = new Robot();
  
   public static void main(String[] args) throws AWTException
-  {
+  { 
     new ClientTest();
   }
    
